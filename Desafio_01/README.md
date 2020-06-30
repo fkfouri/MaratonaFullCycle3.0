@@ -10,10 +10,15 @@ Comando de execução local.
 
 Para criar a imagem:
 
-```docker build -f go.dockerfile -t fkfouri/golang_hello-world:1.0 .```
+```docker build -f go.dockerfile -t fkfouri/golang_hello_world .```
 
 
 Rodando a partir da imagem criada:
 
 
-```docker run -p 3000:3005 -it --rm  fkfouri/golang_hello-world:1.0 ```
+```docker run -p 3000:3005 -it --rm  fkfouri/golang_hello_world ```
+
+
+Publicando a imagem
+
+```docker pull fkfouri/golang_hello_world```
