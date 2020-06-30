@@ -21,4 +21,4 @@ Rodando a partir da imagem criada:
 
 Publicando a imagem
 
-```docker pull fkfouri/golang_hello_world```
+```docker push fkfouri/golang_hello_world```
